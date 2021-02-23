@@ -1,0 +1,44 @@
+#logo
+{
+    top: 27px;
+left: 120px;
+width: 123px;
+height: 123px;
+background: transparent url('/src/assets/logos/logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#small_blob
+{
+    top: 213px;
+left: -179px;
+width: 571px;
+height: 572px;
+background: transparent url('/assets/logos/blob-small.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#SuperSimple
+{
+    top: 270px;
+left: 189px;
+width: 407px;
+height: 98px;
+background: transparent url('/assets/logos/We make it Super Sim.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#weCollect
+{
+    top: 466px;
+    left: 136px;
+    width: 652px;
+    height: 365px;
+    background: transparent url('/assets/logos/collect_img-video.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#Header,p,button
+{
+    display: inline;
+    margin-left: 5rem;
+}
+
