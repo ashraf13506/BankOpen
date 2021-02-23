@@ -11,8 +11,9 @@
 }
 .bodyleft
 {
+  float: left;
   max-width: 788px;
-  max-height: 1014px;
+  
  
 }
 
@@ -21,6 +22,7 @@ button
     display: inline;
     margin-left: 5rem;
     margin-top: 0px;
+    position: relative;
     
     
 }
@@ -29,6 +31,7 @@ p
   margin-top:68px;
   display: inline;
   margin-left: 5rem;
+  font-family:Open Sans;
   
   
 }
@@ -72,4 +75,38 @@ opacity: 1;
     height: 365px;
     background: transparent url('/assets/logos/collect_img-video.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+.Eligibility
+{
+  float: right;
+  position: absolute;
+top: 270px;
+left: 1100px;
+width: 688px;
+height: 675px;
+background: transparent url('/assets/logos/Group 6.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.bigcircle
+{
+top: -227.9068603515625px;
+position: absolute;
+left: 852px;
+width: 1183px;
+height: 1192px;
+transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+background: transparent url('/assets/logos/circle.svg') 0% 0% no-repeat padding-box;
+opacity: 0.5;
+}
+
+.rectangle
+{
+  position:absolute;
+  top: 450px;
+left: 192px;
+width: 236px;
+height: 8px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 13px;
+opacity: 0.7;
 }
